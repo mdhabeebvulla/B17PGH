@@ -2,6 +2,6 @@ uvicorn
 aiofiles
 fastapi
 python-multipart
-sklearn
+scikit-learn
 pandas
 jinja2
