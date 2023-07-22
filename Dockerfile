@@ -8,7 +8,7 @@ COPY ./runtime.txt /B17PGH/runtime.txt
 
 # 
 COPY ./requirements.txt /B17PGH/requirements.txt
-
+COPY ./mymodel /B17PGH/mymodel
 COPY ./main.py /B17PGH/main.py
 COPY ./templates /B17PGH/templates
 #
