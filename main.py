@@ -23,7 +23,7 @@ def read_form():
     return 'hello world'
 @app.get('/test')
 def form_post(request:Request):
-    res = 'Please enter Data'
+    res = 'Please enter Data for iris'
     return templates.TemplateResponse('test.html',context  = {'request':request,'result':res})
 @app.post('/test')
 def form_post(request:Request,num1:float=Form(...),num2:float=Form(...),num3:float=Form(...),num4:float=Form(...)):
