@@ -11,7 +11,8 @@ COPY ./requirements.txt /B17PGH/requirements.txt
 
 COPY ./main.py /B17PGH/main.py
 COPY ./templates /B17PGH/templates
-# 
+#
+RUN python -m pip install --upgrade pip
 RUN pip install --no-cache-dir --upgrade -r /B17PGH/requirements.txt
 #
 EXPOSE 8000/tcp
